@@ -1,0 +1,137 @@
+
+/*PROPERTY AREA ANIMATION*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	/*border: 1px solid red;*/
+	background-color: #689498;
+	height: 85px;
+    padding-top: 27px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.combine2{
+	float: left;
+	width:270px; 
+	height:466px; 
+	background: #e1e4e3; 
+	position:fixed;
+	/*border: 1px solid red;*/
+}
+
+.listone{
+	width:270px;
+}
+
+ul{
+	list-style-type:none;
+	position:fixed;
+	
+}
+	
+li a{
+	display:block;
+	text-decoration:none;
+	padding: 14px 10px;
+	font-size:18px;
+	color:black;
+}
+
+li a:hover:not(.active){
+	color:white;
+	background-color:#10464e;
+}
+
+.active{
+	color:white;
+	background-color: #10464e;
+}
+
+.combine3{
+	
+	width:80%; 
+	height:466px; 
+	margin-top:0px; 
+	margin-left:270px;
+	float: left;
+	/*border: 1px solid red;*/
+	background: #e6f3f1;
+}
+
+.animatediv{
+	width: 100px;
+	height: 100px;
+	/*background: red;*/
+	position: relative;
+	-webkit-animation-name: divmov;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 2s;
+	float: left;
+	padding-left: 3px;
+	/*background: url(brooklyn.jpg);
+	background-size: cover;*/
+}	
+
+@keyframes divmov {
+    from {top: 0px;}
+    to {top: 190px;}
+}
+
+.img1{
+	width: 335px;
+	height: 225px;
+}
+
+.animatediv2{
+	width: 100px;
+	height: 100px;
+	/*background: red;*/
+	position: relative;
+	-webkit-animation-name: divmov2;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 2s;
+	float: left; 
+	margin-left: 272px;
+}
+
+@keyframes divmov2 {
+    from {top: 0px;}
+    to {top: 190px;}
+}
+
+.animatediv3{
+	width: 100px;
+	height: 100px;
+	/*background: red;*/
+	position: relative;
+	-webkit-animation-name: divmov3;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-delay: 2s;
+	float: left; 
+	margin-left: 266px;
+}
+
+@keyframes divmov3 {
+    from {top: 0px;}
+    to {top: 190px;}
+}
+
+footer{
+	/*border: 1px solid red;*/
+	background-color: #689498;
+	height: 75px;
+	font-weight: bold;
+	margin-top: 466px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+}
